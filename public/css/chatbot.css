@@ -1,0 +1,28 @@
+body {background-color:#f6f4fd;}
+
+.header { width:100%;height:50px;z-index:9;position:fixed;top:0;left:0;right:0;background:#ffffff;line-height:50px;padding:0 15px;color:#6b59e9;}
+.header .glyphicon {margin:0 5px;}
+.header .panel-control-left { float:left;}
+.header .panel-control-left .user-id {display:inline-block;}
+.header .panel-control-right {float:right;}
+.header-pink {background-color:}
+
+.chat-container {margin-top:50px;}
+.chat-conversation {float:none; padding:20px 0;margin-bottom:60px;}
+.chat-conversation .chat-con {position:relative;}
+.chat-conversation .chat-con p {max-width: calc(100% - 130px);display:inline-block; margin:0 5px;padding: 10px 20px;background-color: #eed;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.24), 0 3px 1px -2px rgba(0, 0, 0, 0);border-radius: 25px;}
+.chat-conversation .chat-con div {display:inline-block;position:absolute;top:0;}
+.chat-conversation .chat-con span {font-size:11px;color:#ccc; margin:0 5px;}
+.chat-conversation .chat-con .profile_img img {border-radius: 50%;height:40px;width:40px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.24), 0 3px 1px -2px rgba(0, 0, 0, 0)}
+.chat-container .chat-conversation .question_sec {width:100%;text-align:right;padding:0 20px;}
+
+.chat-container .chat-conversation .question_sec .chat-con div {right:0;}
+.chat-container .chat-conversation .question_sec .chat-con p {margin-right:50px;color:#6d65eb;background-color:#ffffff;border:1px solid #f9f9f9;}
+.chat-container .chat-conversation .answer_sec {width:100%;text-align:left;padding:20px;}
+.chat-container .chat-conversation .answer_sec .chat-con div {left:0;}
+.chat-container .chat-conversation .answer_sec .chat-con p {margin-left:50px;background-color:#6d65eb;color:#ffffff;}
+
+.chat-comment {width:100%;height:60px;z-index:9;position:fixed;bottom:0;left:0;right:0;background:#ffffff;line-height:60px;padding:0 5%;text-align:center;}
+.chat-comment #messageIpt {width:70%;display:inline-block;border-radius:30px;color:#6b59e9;border:1px solid #6b59e9;}
+.chat-comment button {background-image: linear-gradient(to bottom,#6d65eb 0,#6b59e9 100%);border-radius:50px;padding:5px 8px;border-color:#6b59e9;background-color:#6b59e9;}
+.chat-comment button:hover, .chat-comment button:focus, .chat-comment button:active  {background-color:#6b59e9;}

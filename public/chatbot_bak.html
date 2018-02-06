@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+
+    <!--basically established stylesheet in pulipmem-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://member.pulipinc.com/css/2015/custom/common.css">
+    <link rel="stylesheet" href="http://member.pulipinc.com/css/2015/custom/contents.css">
+
+    <link rel="stylesheet" href="public/css/chatbot.css">
+
+
+    <!--basically established javascript in pulipmem-->
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--<script src="public/js/vue.js"></script>-->
+    <script src="public/js/chatbot.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="panel-control-left">
+        <span class="glyphicon glyphicon-menu-left exit-chat"></span>
+        <p class="user-id">Eunju</p>
+    </div>
+    <div class="panel-control-right">
+        <span class="glyphicon glyphicon-search search-msg"></span>
+        <span class="glyphicon glyphicon-option-vertical show-option"></span>
+        <nav style="display:none;">
+            <ul>
+                <li>option1</li>
+                <li>option2</li>
+                <li>option3</li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="chat-container">
+    <div class="chat-conversation">
+    </div>
+</section>
+<section class="chat-comment">
+    <div class="container">
+        <form name="MessageForm" id="MessageForm">
+            <div class="form-group row" >
+                <input type="text" class="form-control" id="messageIpt" placeholder="메세지를 입력하세요">
+                <button type="button" class="btn btn-info btn-sm" value="POST" onclick="MessageCall();">
+                    <span class="glyphicon glyphicon-send"></span>
+                </button>
+                <!--<input type="button" value="POST" onclick="MessageCall();" />-->
+            </div>
+
+        </form>
+    </div>
+
+</section>
+</body>
+</html>
