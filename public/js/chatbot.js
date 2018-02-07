@@ -24,7 +24,7 @@ function MessageCall() {
             var el = '';
             el += '<div class="answer_sec">';
             el += ' <div class="chat-con">';
-            el += '     <div><a href="" class="profile_img"><img src="http://ld-wp.template-help.com/wordpress_63333_default-sample/wp-content/uploads/2017/04/person-3.jpg" alt=""></div></a>';
+            el += '     <div><a href="" class="profile_img"><img src="https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/11222317_1623286951252223_1277740655362769123_o.jpg?oh=764951e472ce95cf972bdcb892fe642e&oe=5ADBEA3C" alt=""></div></a>';
             el += '     <p>'+msg.message+'</p>';
             el += '     <span>'+n+'</span>';
             el += ' </div>';
@@ -52,7 +52,7 @@ function createData() {
     el += ' <div class="chat-con">';
     el += '     <span>'+n+'</span>';
     el += '     <p>'+msg+'</p>';
-    el += '     <div><a href="" class="profile_img"><img src="http://ld-wp.template-help.com/wordpress_63333_default-sample/wp-content/uploads/2017/04/person-3.jpg" alt=""></div></a>';
+    el += '     <div><a href="" class="profile_img"><img src="https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/11222317_1623286951252223_1277740655362769123_o.jpg?oh=764951e472ce95cf972bdcb892fe642e&oe=5ADBEA3C" alt=""></div></a>';
     el += ' </div>';
     el += '</div>';
     $('.chat-conversation').append(el);
