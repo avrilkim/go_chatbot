@@ -30,6 +30,7 @@ function MessageCall() {
             el += ' </div>';
             el += '</div>';
             $('.chat-conversation').append(el);
+            console.log('push test');
         },
         error: function(html, status) {
             console.log(html.responseText);
